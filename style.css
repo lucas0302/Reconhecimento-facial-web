@@ -1,0 +1,31 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* centralizar a webcam*/
+    justify-content: center;/* centralizar a webcam*/
+    background-color:#43054E;/*Cor do fundo */
+}
+
+canvas {
+    position: absolute;
+}
+#video{
+    border-style: solid;/* estilo da borda*/
+    border-radius:100px ;/* colocar borda*/
+    background-color:#FFFFFF;/*cor do fundo do video(sem webcam ligada) */
+    border-color:#ffffff;/*cor da borda */
+    width: 800px;/*largura do video */
+    height: 600px;/*altura do video */
+}
+.container{
+    position: absolute;
+    left: 0%;/* posição do logo*/
+    top: 0%;/*posição do logo */
+}
+#logo{
+    width: 200px;/*Tamanho do logo */
+}
